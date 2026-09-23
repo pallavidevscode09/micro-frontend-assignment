@@ -42,10 +42,8 @@ module.exports = {
       name: "host",
 
       remotes: {
-        products:
-          "products@https://micro-frontend-products-eight.vercel.app/remoteEntry.js",
-
-        cart: "cart@https://micro-frontend-cart-sable.vercel.app/remoteEntry.js",
+        products: "products@http://localhost:3001/remoteEntry.js",
+        cart: "cart@http://localhost:3002/remoteEntry.js",
       },
 
       shared: {
