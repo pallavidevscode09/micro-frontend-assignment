@@ -1,0 +1,43 @@
+.cart-container {
+  padding: 30px;
+}
+
+.cart-container h1 {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border: 1px solid #ddd;
+  border-radius: 10px;
+
+  padding: 20px;
+  margin-bottom: 15px;
+
+  background: white;
+}
+
+.cart-item h2 {
+  margin: 0 0 10px;
+}
+
+.cart-item p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cart-item button {
+  padding: 10px 15px;
+
+  border: none;
+  border-radius: 5px;
+
+  background: #d32f2f;
+  color: white;
+
+  cursor: pointer;
+}
